@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulier</title>
+  </head>
+  <body>
+    <h1>Contactformulier</h1>
+    <form id="contactform" method="post" action="https://formspree.io/f/xzbwzqor">
+      <input type="text" name="name" placeholder="Uw naam" value="">
+      <br>
+      <br>
+      <input type="email" name="_replyto" placeholder="Uw email">
+      <br>
+      <br>
+      <input type="hidden" name="_subject" value="Website contact">
+      <textarea name="message" placeholder="Uw bericht"></textarea>
+      <br>
+      <br>
+      <input type="text" name="_gotcha" style="display:none" value="">
+      <input type="submit" value="Verzend">
+      <br>
+    </form>
+  </body>
+</html>
